@@ -8,10 +8,13 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "composer/package-versions-deprecated": "1.11.99.1",
-        "doctrine/annotations": "^1.0",
+        "doctrine/annotations": "^1.12",
         "doctrine/doctrine-bundle": "^2.3",
         "doctrine/doctrine-migrations-bundle": "^3.0",
         "doctrine/orm": "^2.8",
+        "geocoder-php/google-maps-provider": "^4.6",
+        "php-http/guzzle6-adapter": "^2.0",
+        "php-http/message": "^1.11",
         "phpdocumentor/reflection-docblock": "^5.2",
         "sensio/framework-extra-bundle": "^5.1",
         "symfony/asset": "5.2.*",
@@ -40,7 +43,8 @@
         "symfony/web-link": "5.2.*",
         "symfony/yaml": "5.2.*",
         "twig/extra-bundle": "^2.12|^3.0",
-        "twig/twig": "^2.12|^3.0"
+        "twig/twig": "^2.12|^3.0",
+        "willdurand/geocoder": "*"
     },
     "require-dev": {
         "symfony/browser-kit": "^5.2",
