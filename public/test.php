@@ -185,7 +185,6 @@ function initMap() {
 google.maps.event.addDomListener(window, 'load', initMap);
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCO6wmjvTDxFZwuR0Kn4qZmXqrIik8swDo"></script>
 
 </body>
 
